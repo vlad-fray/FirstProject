@@ -168,15 +168,14 @@ body {
 
 .project__image {
   width: 100%;
-}
-
-.project__image-text {
-  position: absolute;
-  top: 64px;
-  right: 32px;
-  line-height: 46px;
-  letter-spacing: 0.05em;
-  color: #ffffff;
+  &-text {
+    position: absolute;
+    top: 64px;
+    right: 32px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
 }
 
 .project__image-text.small {
